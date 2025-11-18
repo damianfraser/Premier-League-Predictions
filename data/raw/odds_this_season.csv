@@ -1,0 +1,111 @@
+match_id,date,home_team,away_team,odds_home,odds_draw,odds_away,bookmaker
+2025-08-15_Liverpool-Bournemouth,2025-08-15,Liverpool,Bournemouth,1.28,6.56,9.07,Pinnacle
+2025-08-16_AstonVilla-Newcastle,2025-08-16,Aston Villa,Newcastle,2.24,3.72,3.13,Pinnacle
+2025-08-16_Brighton-Fulham,2025-08-16,Brighton,Fulham,1.94,3.73,3.98,Pinnacle
+2025-08-16_Sunderland-WestHam,2025-08-16,Sunderland,West Ham,3.27,3.43,2.29,Pinnacle
+2025-08-16_Tottenham-Burnley,2025-08-16,Tottenham,Burnley,1.4,4.71,8.79,Pinnacle
+2025-08-16_Wolves-ManCity,2025-08-16,Wolves,Man City,6.72,4.92,1.46,Pinnacle
+2025-08-17_Chelsea-CrystalPalace,2025-08-17,Chelsea,Crystal Palace,1.66,4.12,5.25,Pinnacle
+2025-08-17_Nott'mForest-Brentford,2025-08-17,Nott'm Forest,Brentford,2.25,3.38,3.4,Pinnacle
+2025-08-17_ManUnited-Arsenal,2025-08-17,Man United,Arsenal,3.74,3.72,2.01,Pinnacle
+2025-08-18_Leeds-Everton,2025-08-18,Leeds,Everton,2.37,3.52,3.06,Pinnacle
+2025-08-22_WestHam-Chelsea,2025-08-22,West Ham,Chelsea,4.94,3.95,1.74,Pinnacle
+2025-08-23_ManCity-Tottenham,2025-08-23,Man City,Tottenham,1.49,5.0,6.01,Pinnacle
+2025-08-23_Bournemouth-Wolves,2025-08-23,Bournemouth,Wolves,1.79,3.98,4.4,Pinnacle
+2025-08-23_Brentford-AstonVilla,2025-08-23,Brentford,Aston Villa,3.26,3.49,2.27,Pinnacle
+2025-08-23_Burnley-Sunderland,2025-08-23,Burnley,Sunderland,2.21,3.26,3.63,Pinnacle
+2025-08-23_Arsenal-Leeds,2025-08-23,Arsenal,Leeds,1.28,6.21,9.68,Pinnacle
+2025-08-24_CrystalPalace-Nott'mForest,2025-08-24,Crystal Palace,Nott'm Forest,2.41,3.25,3.22,Pinnacle
+2025-08-24_Everton-Brighton,2025-08-24,Everton,Brighton,3.16,3.36,2.38,Pinnacle
+2025-08-24_Fulham-ManUnited,2025-08-24,Fulham,Man United,3.3,3.54,2.23,Pinnacle
+2025-08-25_Newcastle-Liverpool,2025-08-25,Newcastle,Liverpool,3.29,3.92,2.11,Pinnacle
+2025-08-30_Chelsea-Fulham,2025-08-30,Chelsea,Fulham,1.57,4.37,5.75,Pinnacle
+2025-08-30_ManUnited-Burnley,2025-08-30,Man United,Burnley,1.36,5.39,8.45,Pinnacle
+2025-08-30_Sunderland-Brentford,2025-08-30,Sunderland,Brentford,3.03,3.24,2.53,Pinnacle
+2025-08-30_Tottenham-Bournemouth,2025-08-30,Tottenham,Bournemouth,1.76,4.14,4.39,Pinnacle
+2025-08-30_Wolves-Everton,2025-08-30,Wolves,Everton,2.74,3.23,2.79,Pinnacle
+2025-08-30_Leeds-Newcastle,2025-08-30,Leeds,Newcastle,3.47,3.54,2.16,Pinnacle
+2025-08-31_Brighton-ManCity,2025-08-31,Brighton,Man City,3.92,3.89,1.91,Pinnacle
+2025-08-31_Nott'mForest-WestHam,2025-08-31,Nott'm Forest,West Ham,1.69,3.98,5.13,Pinnacle
+2025-08-31_Liverpool-Arsenal,2025-08-31,Liverpool,Arsenal,2.27,3.47,3.28,Pinnacle
+2025-08-31_AstonVilla-CrystalPalace,2025-08-31,Aston Villa,Crystal Palace,1.9,3.69,4.21,Pinnacle
+2025-09-13_Arsenal-Nott'mForest,2025-09-13,Arsenal,Nott'm Forest,1.38,5.25,8.14,Pinnacle
+2025-09-13_Bournemouth-Brighton,2025-09-13,Bournemouth,Brighton,2.4,3.57,2.98,Pinnacle
+2025-09-13_CrystalPalace-Sunderland,2025-09-13,Crystal Palace,Sunderland,1.69,3.77,5.51,Pinnacle
+2025-09-13_Everton-AstonVilla,2025-09-13,Everton,Aston Villa,2.46,3.41,3.01,Pinnacle
+2025-09-13_Fulham-Leeds,2025-09-13,Fulham,Leeds,1.99,3.56,3.99,Pinnacle
+2025-09-13_Newcastle-Wolves,2025-09-13,Newcastle,Wolves,1.43,4.93,7.21,Pinnacle
+2025-09-13_WestHam-Tottenham,2025-09-13,West Ham,Tottenham,3.55,3.62,2.1,Pinnacle
+2025-09-13_Brentford-Chelsea,2025-09-13,Brentford,Chelsea,4.63,3.95,1.76,Pinnacle
+2025-09-14_Burnley-Liverpool,2025-09-14,Burnley,Liverpool,9.0,5.44,1.34,Pinnacle
+2025-09-14_ManCity-ManUnited,2025-09-14,Man City,Man United,1.8,4.0,4.33,Pinnacle
+2025-09-20_Liverpool-Everton,2025-09-20,Liverpool,Everton,1.45,4.7,7.25,Pinnacle
+2025-09-20_Brighton-Tottenham,2025-09-20,Brighton,Tottenham,2.28,3.67,3.1,Pinnacle
+2025-09-20_Burnley-Nott'mForest,2025-09-20,Burnley,Nott'm Forest,3.43,3.47,2.2,Pinnacle
+2025-09-20_WestHam-CrystalPalace,2025-09-20,West Ham,Crystal Palace,3.09,3.39,2.41,Pinnacle
+2025-09-20_Wolves-Leeds,2025-09-20,Wolves,Leeds,2.78,3.21,2.76,Pinnacle
+2025-09-20_ManUnited-Chelsea,2025-09-20,Man United,Chelsea,2.71,3.74,2.52,Pinnacle
+2025-09-20_Fulham-Brentford,2025-09-20,Fulham,Brentford,2.05,3.44,3.92,Pinnacle
+2025-09-21_Bournemouth-Newcastle,2025-09-21,Bournemouth,Newcastle,2.47,3.57,2.87,Pinnacle
+2025-09-21_Sunderland-AstonVilla,2025-09-21,Sunderland,Aston Villa,3.71,3.37,2.14,Pinnacle
+2025-09-21_Arsenal-ManCity,2025-09-21,Arsenal,Man City,1.92,3.8,3.99,Pinnacle
+2025-09-27_Brentford-ManUnited,2025-09-27,Brentford,Man United,3.47,3.79,2.07,Pinnacle
+2025-09-27_Chelsea-Brighton,2025-09-27,Chelsea,Brighton,1.9,3.86,3.98,Pinnacle
+2025-09-27_CrystalPalace-Liverpool,2025-09-27,Crystal Palace,Liverpool,3.93,3.73,1.95,Pinnacle
+2025-09-27_Leeds-Bournemouth,2025-09-27,Leeds,Bournemouth,2.99,3.32,2.51,Pinnacle
+2025-09-27_ManCity-Burnley,2025-09-27,Man City,Burnley,1.17,8.36,14.45,Pinnacle
+2025-09-27_Nott'mForest-Sunderland,2025-09-27,Nott'm Forest,Sunderland,1.78,3.82,4.76,Pinnacle
+2025-09-27_Tottenham-Wolves,2025-09-27,Tottenham,Wolves,1.49,4.96,6.08,Pinnacle
+2025-09-28_AstonVilla-Fulham,2025-09-28,Aston Villa,Fulham,2.3,3.15,3.55,Pinnacle
+2025-09-28_Newcastle-Arsenal,2025-09-28,Newcastle,Arsenal,3.64,3.4,2.15,Pinnacle
+2025-09-29_Everton-WestHam,2025-09-29,Everton,West Ham,1.74,3.88,4.9,Pinnacle
+2025-10-03_Bournemouth-Fulham,2025-10-03,Bournemouth,Fulham,1.99,3.6,3.93,Pinnacle
+2025-10-04_Leeds-Tottenham,2025-10-04,Leeds,Tottenham,2.78,3.56,2.55,Pinnacle
+2025-10-04_Arsenal-WestHam,2025-10-04,Arsenal,West Ham,1.21,6.93,13.68,Pinnacle
+2025-10-04_ManUnited-Sunderland,2025-10-04,Man United,Sunderland,1.51,4.7,6.18,Pinnacle
+2025-10-04_Chelsea-Liverpool,2025-10-04,Chelsea,Liverpool,2.92,3.89,2.3,Pinnacle
+2025-10-05_AstonVilla-Burnley,2025-10-05,Aston Villa,Burnley,1.6,3.99,6.21,Pinnacle
+2025-10-05_Everton-CrystalPalace,2025-10-05,Everton,Crystal Palace,2.59,3.26,2.95,Pinnacle
+2025-10-05_Newcastle-Nott'mForest,2025-10-05,Newcastle,Nott'm Forest,1.63,4.3,5.27,Pinnacle
+2025-10-05_Wolves-Brighton,2025-10-05,Wolves,Brighton,3.82,3.68,1.99,Pinnacle
+2025-10-05_Brentford-ManCity,2025-10-05,Brentford,Man City,4.87,4.5,1.64,Pinnacle
+2025-10-18_Nott'mForest-Chelsea,2025-10-18,Nott'm Forest,Chelsea,3.77,3.88,1.95,Pinnacle
+2025-10-18_Brighton-Newcastle,2025-10-18,Brighton,Newcastle,2.71,3.52,2.64,Pinnacle
+2025-10-18_Burnley-Leeds,2025-10-18,Burnley,Leeds,3.43,3.29,2.28,Pinnacle
+2025-10-18_CrystalPalace-Bournemouth,2025-10-18,Crystal Palace,Bournemouth,2.23,3.4,3.43,Pinnacle
+2025-10-18_ManCity-Everton,2025-10-18,Man City,Everton,1.39,5.29,7.71,Pinnacle
+2025-10-18_Sunderland-Wolves,2025-10-18,Sunderland,Wolves,2.5,3.07,3.25,Pinnacle
+2025-10-18_Fulham-Arsenal,2025-10-18,Fulham,Arsenal,5.98,4.46,1.55,Pinnacle
+2025-10-19_Tottenham-AstonVilla,2025-10-19,Tottenham,Aston Villa,2.07,3.77,3.5,Pinnacle
+2025-10-19_Liverpool-ManUnited,2025-10-19,Liverpool,Man United,1.63,4.27,5.32,Pinnacle
+2025-10-20_WestHam-Brentford,2025-10-20,West Ham,Brentford,2.54,3.43,2.87,Pinnacle
+2025-10-24_Leeds-WestHam,2025-10-24,Leeds,West Ham,1.82,3.72,4.72,Pinnacle
+2025-10-25_Chelsea-Sunderland,2025-10-25,Chelsea,Sunderland,1.38,5.22,8.0,Pinnacle
+2025-10-25_Newcastle-Fulham,2025-10-25,Newcastle,Fulham,1.65,3.97,5.59,Pinnacle
+2025-10-25_ManUnited-Brighton,2025-10-25,Man United,Brighton,2.0,3.92,3.57,Pinnacle
+2025-10-25_Brentford-Liverpool,2025-10-25,Brentford,Liverpool,4.25,4.18,1.78,Pinnacle
+2025-10-26_Arsenal-CrystalPalace,2025-10-26,Arsenal,Crystal Palace,1.44,4.71,7.49,Pinnacle
+2025-10-26_AstonVilla-ManCity,2025-10-26,Aston Villa,Man City,4.24,4.06,1.81,Pinnacle
+2025-10-26_Bournemouth-Nott'mForest,2025-10-26,Bournemouth,Nott'm Forest,1.79,3.96,4.48,Pinnacle
+2025-10-26_Wolves-Burnley,2025-10-26,Wolves,Burnley,2.0,3.39,4.18,Pinnacle
+2025-10-26_Everton-Tottenham,2025-10-26,Everton,Tottenham,2.42,3.33,3.13,Pinnacle
+2025-11-01_Brighton-Leeds,2025-11-01,Brighton,Leeds,1.89,3.77,4.15,Pinnacle
+2025-11-01_Burnley-Arsenal,2025-11-01,Burnley,Arsenal,9.99,6.26,1.28,Pinnacle
+2025-11-01_CrystalPalace-Brentford,2025-11-01,Crystal Palace,Brentford,1.94,3.68,4.01,Pinnacle
+2025-11-01_Fulham-Wolves,2025-11-01,Fulham,Wolves,1.88,3.54,4.56,Pinnacle
+2025-11-01_Nott'mForest-ManUnited,2025-11-01,Nott'm Forest,Man United,3.43,3.87,2.06,Pinnacle
+2025-11-01_Tottenham-Chelsea,2025-11-01,Tottenham,Chelsea,2.73,3.63,2.56,Pinnacle
+2025-11-01_Liverpool-AstonVilla,2025-11-01,Liverpool,Aston Villa,1.66,4.21,5.07,Pinnacle
+2025-11-02_WestHam-Newcastle,2025-11-02,West Ham,Newcastle,5.07,4.45,1.63,Pinnacle
+2025-11-02_ManCity-Bournemouth,2025-11-02,Man City,Bournemouth,1.51,4.75,6.02,Pinnacle
+2025-11-03_Sunderland-Everton,2025-11-03,Sunderland,Everton,2.82,3.18,2.75,Pinnacle
+2025-11-08_Tottenham-ManUnited,2025-11-08,Tottenham,Man United,2.72,3.59,2.58,Pinnacle
+2025-11-08_Everton-Fulham,2025-11-08,Everton,Fulham,2.26,3.35,3.41,Pinnacle
+2025-11-08_WestHam-Burnley,2025-11-08,West Ham,Burnley,1.95,3.58,4.12,Pinnacle
+2025-11-08_Sunderland-Arsenal,2025-11-08,Sunderland,Arsenal,7.56,5.01,1.41,Pinnacle
+2025-11-08_Chelsea-Wolves,2025-11-08,Chelsea,Wolves,1.37,5.26,8.42,Pinnacle
+2025-11-09_AstonVilla-Bournemouth,2025-11-09,Aston Villa,Bournemouth,2.25,3.49,3.29,Pinnacle
+2025-11-09_Brentford-Newcastle,2025-11-09,Brentford,Newcastle,2.97,3.39,2.5,Pinnacle
+2025-11-09_CrystalPalace-Brighton,2025-11-09,Crystal Palace,Brighton,2.3,3.62,3.1,Pinnacle
+2025-11-09_Nott'mForest-Leeds,2025-11-09,Nott'm Forest,Leeds,2.29,3.45,3.27,Pinnacle
+2025-11-09_ManCity-Liverpool,2025-11-09,Man City,Liverpool,1.88,4.08,3.85,Pinnacle
