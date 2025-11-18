@@ -9,5 +9,5 @@ Src - Actual Python Package
 Scripts - Command-line style entrypoints
 
 Before Each Week:
-Download historic odds
+Download historic odds "python scripts/build_odds_file.py"
 Update new gameweek odds
