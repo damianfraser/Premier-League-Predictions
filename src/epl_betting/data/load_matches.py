@@ -1,29 +1,21 @@
 import pandas as pd
-from ..config import RAW_DIR, PROCESSED_DIR
-
+from ..config import RAW_DIR
 
 def load_raw_matches() -> pd.DataFrame:
-    """
-    Load raw Premier League match data from CSV.
+    path = RAW_DIR / "matches_this_season.csv"
+    df = pd.read_csv(path)
 
-    Expected columns (example, can evolve):
-    - match_id
-    - date
-    - season
-    - home_team
-    - away_team
-    - home_goals
-    - away_goals
-    - home_xg
-    - away_xg
-    """
-    path = RAW_DIR / "matches_premier_league.csv"
-    return pd.read_csv(path, parse_dates=["date"])
+    # Standardise date and team/goal/xG columns using the schema from README
+    if "kickoff_time" in df.columns:
+        df["date"] = pd.to_datetime(df["kickoff_time"])
 
+    rename_map = {
+        "home_score": "home_goals",
+        "away_score": "away_goals",
+        "home_expected_goals_xg": "home_xg",
+        "away_expected_goals_xg": "away_xg",
+    }
+    rename_map = {k: v for k, v in rename_map.items() if k in df.columns}
+    df = df.rename(columns=rename_map)
 
-def load_processed_matches() -> pd.DataFrame:
-    """
-    Load feature-engineered match data for modelling/backtesting.
-    """
-    path = PROCESSED_DIR / "matches_features.csv"
-    return pd.read_csv(path, parse_dates=["date"])
+    return df

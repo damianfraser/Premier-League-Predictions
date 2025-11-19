@@ -5,6 +5,3 @@ scikit-learn
 statsmodels
 matplotlib
 streamlit
-requests
-beautifulsoup4
-lxml
