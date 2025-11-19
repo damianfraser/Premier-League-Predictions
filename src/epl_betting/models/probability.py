@@ -1,12 +1,13 @@
 import numpy as np
 from typing import Dict
 from .team_strength import TeamStrength, expected_goals
+import math
 
-
-def _poisson_pmf(lam: float, max_goals: int = 10):
-    return [np.exp(-lam) * lam**k / np.math.factorial(k) for k in range(max_goals + 1)]
-
-
+def _poisson_pmf(lam, max_goals=10):
+    return [
+        np.exp(-lam) * (lam ** k) / math.factorial(k)
+        for k in range(max_goals + 1)
+    ]
 def outcome_probs(strength: TeamStrength,
                   home_team: str,
                   away_team: str,

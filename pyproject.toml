@@ -9,7 +9,8 @@ description = "Premier League prediction and betting model"
 readme = "README.md"
 requires-python = ">=3.9"
 
-[project.dependencies]
-pandas = "*"
-numpy = "*"
-scikit-learn = "*"
+dependencies = [
+    "pandas",
+    "numpy",
+    "scikit-learn",
+]
