@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "epl-betting"
+version = "0.1.0"
+description = "Premier League prediction and betting model"
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.dependencies]
+pandas = "*"
+numpy = "*"
+scikit-learn = "*"

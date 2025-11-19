@@ -1,6 +1,5 @@
 from dataclasses import dataclass
 from typing import Dict, Tuple
-
 import numpy as np
 import pandas as pd
 
@@ -13,33 +12,67 @@ class TeamStrength:
     intercept: float
 
 
-def fit_team_strength_model(df: pd.DataFrame) -> TeamStrength:
-    """
-    Fit a simple log-linear model for goals/xG (Poisson-style).
+def fit_team_strength_model(df: pd.DataFrame, use_xg: bool = True) -> TeamStrength:
+    # Pick xG if available, fallback to actual goals
+    if use_xg and "home_xg" in df.columns and "away_xg" in df.columns:
+        home_for = df["home_xg"]
+        home_ag = df["away_xg"]
+        away_for = df["away_xg"]
+        away_ag = df["home_xg"]
+    else:
+        home_for = df["home_goals"]
+        home_ag = df["away_goals"]
+        away_for = df["away_goals"]
+        away_ag = df["home_goals"]
 
-    df should have, at minimum:
-    - home_team, away_team
-    - home_xg, away_xg (or goals)
+    teams = sorted(set(df["home_team_name"]).union(df["away_team_name"]))
 
-    TODO: implement actual Poisson or GLM fit using statsmodels.
-    For now, this returns neutral strengths for all teams.
-    """
-    teams = sorted(set(df["home_team"]).union(df["away_team"]))
-    attack = {t: 0.0 for t in teams}
-    defence = {t: 0.0 for t in teams}
-    home_adv = 0.0
-    intercept = np.log(df[["home_xg", "away_xg"]].values.mean() + 1e-6)
+    league_avg = (home_for.sum() + away_for.sum()) / (len(df) * 2)
 
-    return TeamStrength(attack=attack, defence=defence,
-                        home_advantage=home_adv, intercept=intercept)
+    avg_home_goals = home_for.mean()
+    avg_away_goals = away_for.mean()
+    home_advantage = np.log((avg_home_goals + 1e-8) / (avg_away_goals + 1e-8))
+
+    attack = {}
+    defence = {}
+
+    for team in teams:
+        home_mask = df["home_team_name"] == team
+        away_mask = df["away_team_name"] == team
+
+        gf = home_for[home_mask].sum() + away_for[away_mask].sum()
+        ga = home_ag[away_mask].sum() + away_ag[home_mask].sum()
+        n_games = home_mask.sum() + away_mask.sum()
+
+        if n_games == 0:
+            attack[team] = 0
+            defence[team] = 0
+            continue
+
+        gf_pg = gf / n_games
+        ga_pg = ga / n_games
+
+        attack[team] = np.log((gf_pg + 1e-8) / (league_avg + 1e-8))
+        defence[team] = np.log((league_avg + 1e-8) / (ga_pg + 1e-8))
+
+    return TeamStrength(
+        attack=attack,
+        defence=defence,
+        home_advantage=home_advantage,
+        intercept=np.log(league_avg + 1e-8),
+    )
 
 
-def expected_goals(strength: TeamStrength, home_team: str, away_team: str) -> Tuple[float, float]:
-    """
-    Compute expected goals (lambda_home, lambda_away) given team strengths.
-    """
-    a = strength.attack
-    d = strength.defence
-    lam_home = np.exp(strength.intercept + a[home_team] - d[away_team] + strength.home_advantage)
-    lam_away = np.exp(strength.intercept + a[away_team] - d[home_team])
+def expected_goals(strength: TeamStrength, home: str, away: str) -> Tuple[float, float]:
+    lam_home = np.exp(
+        strength.intercept +
+        strength.attack[home] -
+        strength.defence[away] +
+        strength.home_advantage
+    )
+    lam_away = np.exp(
+        strength.intercept +
+        strength.attack[away] -
+        strength.defence[home]
+    )
     return lam_home, lam_away
