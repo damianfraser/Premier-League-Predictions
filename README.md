@@ -11,3 +11,4 @@ Scripts - Command-line style entrypoints
 Before Each Week:
 Download historic odds "python scripts/build_odds_file.py"
 Update new gameweek odds
+"python scripts/predict_from_future_odds.py"
